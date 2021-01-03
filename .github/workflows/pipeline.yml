@@ -14,6 +14,7 @@ jobs:
     env: 
       SKIP_PREFLIGHT_CHECK: true
       MONGO_URI: ${{ secrets.MONGO_URI }} 
+      TEST_MONGO_URI: ${{secrets.TEST_MONGO_URI}}
       PORT: ${{secrets.PORT}}
       SECRET: ${{secrets.SECRET}}
     steps:
