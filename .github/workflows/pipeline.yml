@@ -25,5 +25,16 @@ jobs:
         run: npm install && cd client && npm install
       - name: lint
         run: npm run lint:all
+      - name: build
+        run: npm run build:client
+      - name: test
+        run: npm run test:all
+      - name: e2e tests
+        uses: cypress-io/github-action@v2
+        with:
+          command: npm run test:e2e
+          start: npm start
+          wait-on: http://localhost:3001
+      
      
      
