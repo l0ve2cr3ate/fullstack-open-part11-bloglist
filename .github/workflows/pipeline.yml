@@ -46,6 +46,7 @@ jobs:
         env:
           HD_MONGO_URI: ${{ secrets.MONGO_URI }} 
           HD_SECRET: ${{secrets.SECRET}}
+          HD_SKIP_PREFLIGHT_CHECK: true
         
         
      
