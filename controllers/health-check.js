@@ -1,7 +1,7 @@
 const healthCheckRouter = require('express').Router()
 
 healthCheckRouter.get('/', async (request, response) => {
-    response.send('ok')
+  response.send('ok')
 })
 
 module.exports = healthCheckRouter
