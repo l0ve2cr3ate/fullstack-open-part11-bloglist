@@ -43,6 +43,9 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "fullstack-open-part11-bloglist" 
           heroku_email: "l0ve2cr3ate@gmail.com"
+        env:
+          HD_MONGO_URI: ${{ secrets.MONGO_URI }} 
+          HD_SECRET: ${{secrets.SECRET}}
         
         
      
