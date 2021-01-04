@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node index.js",
+    "start:prod": "cross-env NODE_ENV=production node index.js",
     "dev": "cross-env NODE_ENV=development nodemon index.js",
     "test": "cross-env NODE_ENV=test jest --verbose --runInBand",
     "start:test": "cross-env NODE_ENV=test node index.js",
     "lint": "eslint .",
     "build:client": "cd client && npm run build",
+    "build": "cd client && npm run build",
     "lint:client": "cd client && npm run eslint",
     "lint:all": "npm run lint && npm run lint:client",
     "test:client": "cd client && npm test",
@@ -20,7 +22,8 @@
     "fullstack-open-2020",
     "nodejs",
     "express",
-    "testing"
+    "testing",
+    "github-actions"
   ],
   "author": "l0ve2cr3ate",
   "license": "MIT",
