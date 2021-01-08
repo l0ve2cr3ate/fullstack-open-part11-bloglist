@@ -368,7 +368,7 @@ At the end of the course you will build a deployment pipeline for one of your ow
 
 ## Improvements
 We learned how to deploy to Heroku and how to rollback our deployment to Heroku, but it would be great if there would be a short mention about how to go about rolling back a deployment when Heroku is not used. 
-Also in the course it is mentioned that you should handle what happens when the user sends an HTTP request just for deployment, but it does not explain how you can handle this. 
+Also in the course it is mentioned that you should handle what happens when the user sends an HTTP request just for deployment, but it does not explain how you can handle this.
 
 ## Summary
 This course is a nice introduction to CI/CD and GitHub Actions. I would recommend this course if you satisfy the [requirements]((#prerequisits)), want to go through some high quality course material and put in the effort to complete the exercises. If you love getting certificates, you are in the right place. If you expect video content, this course in NOT for you.
